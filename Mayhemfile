@@ -1,0 +1,6 @@
+project: priority-queue
+target: prio-queue-fuzz
+
+cmds:
+    - cmd: ./prio-queue-fuzz
+      libfuzzer: true
